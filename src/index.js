@@ -2,16 +2,6 @@ import React from "react";
 import ReactDOM from 'react-dom/client';
 import './index.css';
 
-export default function tryStuff() {
-  return (
-    <p>
-    <a href="https://tyler-bair.github.io/">
-      <button>Posts</button>
-    </a>
-  </p>
-  );
-}
-
 
 class Square extends React.Component {
     render() {
@@ -94,4 +84,4 @@ class Square extends React.Component {
   // ========================================
   
   const root = ReactDOM.createRoot(document.getElementById("root"));
-  root.render(<tryStuff />);
+  root.render(<Game />);
