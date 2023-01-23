@@ -2,22 +2,26 @@ import React from "react";
 import ReactDOM from 'react-dom/client';
 import './index.css';
 
+export default function tryStuff() {
+  return (
+    <p>
+    <a href="https://tyler-bair.github.io/">
+      <button>Posts</button>
+    </a>
+  </p>
+  );
+}
+
+
 class Square extends React.Component {
     render() {
       return (
-        <div>
-          <button 
-            className="square" 
-            onClick={() => this.props.onClick()}
-          >
-            {this.props.value}
-          </button>
-        <p>
-          <a href="https://tyler-bair.github.io/">
-            <button>Posts</button>
-          </a>
-        </p>
-        </div>
+        <button 
+          className="square" 
+          onClick={() => this.props.onClick()}
+        >
+          {this.props.value}
+        </button>
       );
     }
   }
