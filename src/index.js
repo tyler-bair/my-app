@@ -5,12 +5,17 @@ import './index.css';
 class Square extends React.Component {
     render() {
       return (
-        <button 
+        <div>
+          <button 
             className="square" 
             onClick={() => this.props.onClick()}
-        >
+          >
             {this.props.value}
-        </button>
+          </button>
+          <a href="/posts">
+            <button>Posts</button>
+          </a>
+        </div>
       );
     }
   }
