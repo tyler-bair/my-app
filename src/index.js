@@ -11,12 +11,6 @@ class Square extends React.Component {
         >
             {this.props.value}
         </button>
-
-        <div>
-            <a href="/posts">
-                <button>Posts</button>
-            </a>
-        </div>
       );
     }
   }
