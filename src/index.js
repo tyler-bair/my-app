@@ -12,9 +12,11 @@ class Square extends React.Component {
           >
             {this.props.value}
           </button>
-          <a href="https://tyler-bair.github.io">
+        <p>
+          <a href="https://tyler-bair.github.io/">
             <button>Posts</button>
           </a>
+        </p>
         </div>
       );
     }
