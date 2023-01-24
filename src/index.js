@@ -43,6 +43,11 @@ class Board extends React.Component {
 
     return (
       <div>
+        <a href="https://tyler-bair.github.io/">
+          <button> 
+            Go Back
+          </button>
+        </a>
         <div className="status">{status}</div>
         <div className="board-row">
           {this.renderSquare(0)}
