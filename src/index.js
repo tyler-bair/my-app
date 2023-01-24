@@ -43,7 +43,7 @@ class Board extends React.Component {
 
     return (
       <div>
-        <a href="https://tyler-bair.github.io/">
+        <a href="https://tyler-bair.github.io">
           <button> 
             Go Back
           </button>
