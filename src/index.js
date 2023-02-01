@@ -23,6 +23,7 @@ class Board extends React.Component {
   render() {
     return (
       <div>
+        {"Tik Tac Toe"}
         <div className="board-row">
           {this.renderSquare(0)}
           {this.renderSquare(1)}
@@ -80,6 +81,7 @@ class Game extends React.Component {
         'Go to move #' + move :
         'Go to game start';
       return (
+        
         <li>
           <button onClick={() => this.jumpTo(move)}>{desc}</button>
         </li>
@@ -102,6 +104,11 @@ class Game extends React.Component {
           />
         </div>
         <div className="game-info">
+        <a href="https://tyler-bair.github.io">
+          <button> 
+            Home Page
+          </button>
+        </a>
           <div>{status}</div>
           <ol>{moves}</ol>
         </div>
